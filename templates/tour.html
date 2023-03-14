@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Museo</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body class={{ora}}>
+        <div class="center">
+            <h1 id="titolo">Museo del Design Italiano</h1>
+            <img src="static/images/museo.jpg" alt="Museo">
+        </div>
+        <div class="center">
+            <a href={{tasto1}}><img src={{img1}} alt="Biglietto Singolo" class="biglietti"></a>
+            <a href={{tasto2}}><img src={{img2}} alt="Biglietto Gruppo" class="biglietti"></a>
+            <a href={{tasto3}}><img src={{img3}} alt="Biglietto Guida" class="biglietti"></a>
+        </div>
+    </body>
+</html>

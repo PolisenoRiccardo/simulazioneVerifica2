@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('OPTIMA.woff') format('woff');
+    }
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+#titolo {
+    font-family: 'Optima', sans-serif;
+    size: 60px;
+}
+
+.biglietti {
+    width: 300px;
+}
+
+.mattina {
+    background-color: lightblue;
+}
+
+.pomeriggio {
+    background-color: lightblue;
+}
+
+.notte {
+    background-color: blue;
+}
